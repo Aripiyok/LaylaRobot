@@ -367,7 +367,7 @@ def layla_about_callback(update, context):
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
                  \n❍ Awesome Bots @fl0werboy ⚡
                  \n❍ Support Group @zzonateman.
-                 \nHere is the [💾Repository](https://r.me/fl0werboy).
+                 \nHere is the [MY INSTAGRAM](https://www.instagram.com/ariiiiav).
                  \n\nIf you have any question about BOY ⚡, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
