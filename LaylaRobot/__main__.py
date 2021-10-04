@@ -103,7 +103,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'M` Layla
+`Hi.. I'M` BOY
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
 Powered by :- [Awesome Bots](t.me/Laylalist)"""
 
