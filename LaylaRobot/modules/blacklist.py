@@ -387,7 +387,7 @@ def del_blacklist(update, context):
                     if res:
                         bot.sendMessage(
                             chat.id,
-                            f"Kicked {user.first_name} for using Blacklisted word: {trigger}!",
+                            f"Kicked {user.first_name} Siapa suruh typing gitu: {trigger}!",
                         )
                     return
                 elif getmode == 5:
