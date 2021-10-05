@@ -339,7 +339,7 @@ def unban(update: Update, context: CallbackContext) -> str:
         return log_message
 
     chat.unban_member(user_id)
-    message.reply_text("Yep, this user can join!")
+    message.reply_text("unban(user_id) makanya jangan tengil!")
 
     log = (
         f"<b>{html.escape(chat.title)}:</b>\n"
