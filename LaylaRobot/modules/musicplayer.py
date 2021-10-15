@@ -2,7 +2,8 @@ __mod_name__ = "Music Player"
 
 __help__ = """
 =>> *Song Playing* 🎧 
-❍ /play <song name> - play song you requested
+❍ /p <song name> - play song to Group chat
+❍ /c <song name> - play song to Channel
 ❍ /dplay <song name> - play song you requested via deezer
 ❍ /splay <song name> - play song you requested via jio saavn
 ❍ /playlist - Show now playing list
@@ -21,6 +22,6 @@ __help__ = """
 ❍ /userbotjoin - invite assistant to your chat
 ❍ /admincache - Refresh admin list
 =>>   *Use*
-1) Add @LaylaRobot in your group to admin with all permission
-2) Add Assistant I'd to your group @LaylaAssistant
+1) Add @boytapibot in your group to admin with all permission
+2) Add Assistant I'd to your group @flowmusicasisten
 """
