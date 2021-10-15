@@ -3,7 +3,7 @@ from telethon.tl.types import InputMediaDice
 from LaylaRobot.events import register
 
 
-@register(pattern="^/dice(?: |$)(.*)")
+@register(pattern="^/dicee(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -23,7 +23,7 @@ async def _(event):
             pass
 
 
-@register(pattern="^/dart(?: |$)(.*)")
+@register(pattern="^/dartt(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -43,7 +43,7 @@ async def _(event):
             pass
 
 
-@register(pattern="^/ball(?: |$)(.*)")
+@register(pattern="^/balll(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
