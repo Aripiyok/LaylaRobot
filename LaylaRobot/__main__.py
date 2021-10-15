@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello, I'MY BOY
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help
-Maintained by @fl0werboy 🖤
+`sᴀʏᴀ ᴅɪ ᴄɪᴘᴛᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴍᴀɴᴀɢᴇᴅ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ᴋʟɪᴋ /help ᴜɴᴛᴜᴋ ᴘᴇᴛᴜɴᴊᴜᴋ`
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @fl0werboy 🖤
 """
 
 buttons = [
@@ -97,14 +97,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="✨ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ ✨", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
 `Hi.. I'M` BOY⚡
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
+`ʙᴇʀɪᴋᴜᴛ ᴀᴅᴀʟᴀʜ ꜰɪᴛᴜʀ ᴅᴀʀɪ @boytapibot
+ ʏɢ ʙɪsᴀ ᴅɪ ᴛᴇʀᴀᴘᴋᴀɴ ᴅɪ ɢʀᴏᴜᴘ ᴀɴᴅᴀ`
 Powered by :- [owner bots](t.me/fl0werboy)"""
 
 layla_IMG = "https://telegra.ph/file/46bff4aaabab86d711b5e.jpg"
