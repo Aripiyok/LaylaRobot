@@ -91,7 +91,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ɢʀᴏᴜᴘ ᴄʜᴀᴛ", url=f"https://t.me/zzonateman"),
+        InlineKeyboardButton(text="ɢʀᴏᴜᴘ ᴄʜᴀᴛ", url=f"https://t.me/temanmutuallan"),
         InlineKeyboardButton(
             text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/keluhkesahboy/410"
         ),
@@ -359,15 +359,14 @@ def layla_about_callback(update, context):
     if query.data == "layla_":
         query.message.edit_text(
             text=""" ℹ️ I'm *BOY*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @fl0werboy ⚡
-                 \n❍ Support Group @zzonateman.
+                 \n⚡ I can restrict users.
+                 \n⚡ I can greet users with customizable welcome messages and even set a group's rules.
+                 \n⚡ I have an advanced anti-flood system.
+                 \n⚡ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \n⚡ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \n⚡ I check for admins' permissions before executing any command and more stuffs
+                 \n⚡ Awesome Bots @fl0werboy 🖤
+                 \n⚡ Support Group @temanmutuallan.
                  \nHere is the [MY INSTAGRAM](https://www.instagram.com/ariiiiav).
                  \n\nIf you have any question about BOY ⚡, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
@@ -395,7 +394,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *BOY*
+            text=""" Hi..🥰 I'm *BOY*
                  \nHere is the [Source Code](https://t.me/fl0werboy) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
