@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello, I'MY BOY
 `sᴀʏᴀ ᴅɪ ᴄɪᴘᴛᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴍᴀɴᴀɢᴇᴅ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ᴋʟɪᴋ /help ᴜɴᴛᴜᴋ ᴘᴇᴛᴜɴᴊᴜᴋ`
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @fl0werboy 🖤
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @fl0werboy 😎
 """
 
 buttons = [
