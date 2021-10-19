@@ -327,22 +327,6 @@ def weebify(update: Update, context: CallbackContext):
     else:
         message.reply_text(string)
         
-        
-@run_async
-@typing_action
-def goodnight(update, context):
-    message = update.effective_message
-    reply = random.choice(fun.GDNIGHT)
-    message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
-
-
-@run_async
-@typing_action
-def goodmorning(update, context):
-    message = update.effective_message
-    reply = random.choice(fun.GDMORNING)
-    message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
-    
 
 __help__ = """
  ❍ /runs*:* reply a random string from an array of replies
@@ -375,11 +359,7 @@ EIGHTBALL_HANDLER = DisableAbleCommandHandler("8ball", eightball)
 TABLE_HANDLER = DisableAbleCommandHandler("table", table)
 SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout)
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify)
-GDMORNING_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(gm|good morning)"), goodmorning, friendly="goodmorning"
-)
-GDNIGHT_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(gn|good night)"), goodnight, friendly="goodnight"
+
 )
 
 dispatcher.add_handler(WEEBIFY_HANDLER)
@@ -396,8 +376,6 @@ dispatcher.add_handler(RLG_HANDLER)
 dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(EIGHTBALL_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
-dispatcher.add_handler(GDMORNING_HANDLER)
-dispatcher.add_handler(GDNIGHT_HANDLER)
 
 __mod_name__ = "Memes"
 __command_list__ = [
@@ -431,6 +409,4 @@ __handlers__ = [
     SHOUT_HANDLER,
     WEEBIFY_HANDLER,
     EIGHTBALL_HANDLER,
-    GDMORNING_HANDLER,
-    GDNIGHT_HANDLER,
 ]
